@@ -11844,5 +11844,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+section:first-of-type {
+  width: 80%;
+  text-align: left;
+  align-items: center;
+}
 
 /*# sourceMappingURL=style.css.map */
