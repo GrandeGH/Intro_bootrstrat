@@ -11846,7 +11846,23 @@ textarea.form-control-lg {
 }
 section:first-of-type {
   width: 80%;
+  margin: 10px;
   text-align: left;
+  align-items: center;
+}
+
+div:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+  width: 60%;
+  height: 50px;
+  display: flex;
   align-items: center;
 }
 

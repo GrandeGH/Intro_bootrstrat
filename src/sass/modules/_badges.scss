@@ -1,8 +1,20 @@
 section:first-of-type {
     // @include espace
     width: 80%;
-
+    margin: 10px;
     text-align: left;
     align-items: center;
+}
 
+div:nth-of-type(2) {
+    @include espace;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.container-fluid {
+    width: 60%;
+    height: 50px;
+    display: flex;
+    align-items: center;
 }
